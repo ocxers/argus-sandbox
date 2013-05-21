@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta NAME="robot" CONTENT="index,follow">
+  <meta NAME="robots" CONTENT="ALL">
+
+  <link rel="stylesheet/less" type="text/css" href="index.less"/>
+  <link rel="stylesheet" type="text/css" href="lib/ext-4.2.0-gpl/resources/css/ext-all-neptune.css"/>
+
+  <script src="lib/jquery-1.9.1.min.js"></script>
+  <script src="lib/less-1.3.3.min.js"></script>
+  <script src="lib/ext-4.2.0-gpl/ext-all-debug.js"></script>
+  <script src="lib/ext-4.2.0-gpl/ext-theme-neptune.js"></script>
+
+  <script src="lib/argo.js"></script>
+  <script src="lib/ext-overrides.js"></script>
+  <script src="lib/utils.js"></script>
+
+  <script src="lib/extjs/Ext.ux.form.field.DateTime.js"></script>
+  <script src="lib/extjs/Ext.ux.tab.Tree.js"></script>
+  <script src="lib/extjs/Ext.ux.tab.Accordion.js"></script>
+  <script src="lib/extjs/Ext.ux.tab.panel.Container.js"></script>
+  <script src="lib/extjs/Ext.ux.tab.Container.js"></script>
+  <script src="lib/extjs/Ext.ux.Tabs.js"></script>
+
+  <script>
+    Ext.onReady(function () {
+
+      window.argo = new Argo({
+        url: 'https://argus.aadev.info/api/int/en/'
+      });
+
+      var timezone = new Date().getTimezoneOffset();
+      timezone = (timezone / 60) * -1;
+
+      var func = function () {
+        argo.post('Portal:Portal:loginWeb', {
+          username: 'ocxers',
+          password: 'sharingchi',
+          timezone: timezone
+        }, function (success, result) {
+          console.log(success);
+          console.log(result.apiKey);
+          if (!success) return;
+
+          argo.setBaseParams({
+            apiKey: result.apiKey
+          });
+
+
+          //console.log(argo.baseParams.apiKey); // we did got a apiKey here
+
+
+          Ext.create('Ext.ux.Tabs',{
+            margin: '20',
+            renderTo: document.body
+          });
+
+          //argo.post('Reporting:Reporting:getTreeFavorites',{},function(success,result){  console.log(result);  },this);
+
+
+        }, this);
+      };
+      // login now, and then again every 15 minutes
+      setInterval(func, 1000 * 60 * 15);
+      func();
+
+      //---------------------------------------------------------------------
+      // START MAIN SCRIPT
+      //---------------------------------------------------------------------
+
+
+    });
+  </script>
+</head>
+<body>
+
+</body>
+</html>

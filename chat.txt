@@ -1,0 +1,11 @@
+﻿Reporting:Reporting:loadReports,
+...saveReports
+...createReport
+...deleteReport
+[5:06:52 PM] Aaron Sievers: actually deleteReport is not necessary
+[5:07:22 PM] Aaron Sievers: createReport is only to send the name to the server, and get the inserted ID back
+[5:07:36 PM] Aaron Sievers: otherwise all you need it loadReports and saveReports
+[5:08:24 PM] Aaron Sievers: what i would do is, any time a change is made (drag/drop, delete report, rename, edit) then call saveReports() using a DelayedTask
+[5:11:07 PM] Aaron Sievers: do you understand what I mean?
+i would be lazy and perform all operations in the UI (add, delete, edit) and then save all data at once
+[5:11:45 PM] Aaron Sievers: so you only need to contact the server to create a report so that you will have a unique ID
