@@ -20,6 +20,7 @@
   <script src="lib/utils.js"></script>
 
   <script src="lib/extjs/Ext.ux.form.field.DateTime.js"></script>
+  <script src="lib/extjs/Ext.ux.tab.tree.Window.js"></script>
   <script src="lib/extjs/Ext.ux.tab.Tree.js"></script>
   <script src="lib/extjs/Ext.ux.tab.Accordion.js"></script>
   <script src="lib/extjs/Ext.ux.tab.panel.Container.js"></script>
@@ -36,6 +37,8 @@
       var timezone = new Date().getTimezoneOffset();
       timezone = (timezone / 60) * -1;
 
+      var UIFlag = false;
+
       var func = function () {
         argo.post('Portal:Portal:loginWeb', {
           username: 'ocxers',
@@ -50,18 +53,17 @@
             apiKey: result.apiKey
           });
 
-
           //console.log(argo.baseParams.apiKey); // we did got a apiKey here
 
-
-          Ext.create('Ext.ux.Tabs',{
-            margin: '20',
-            renderTo: document.body
-          });
+          if (!UIFlag) {
+            UIFlag = true;
+            Ext.create('Ext.ux.Tabs', {
+              margin: '20',
+              renderTo: document.body
+            });
+          }
 
           //argo.post('Reporting:Reporting:getTreeFavorites',{},function(success,result){  console.log(result);  },this);
-
-
         }, this);
       };
       // login now, and then again every 15 minutes
