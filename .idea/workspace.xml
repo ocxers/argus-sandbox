@@ -23,7 +23,7 @@
     <file path="E:/LCD V2/newWebs(LCDV2)/index.js" changelist="2a243f68-41de-414f-b72e-0c5e46ee8f7d" time="1368511429234" ignored="false" />
     <file path="E:/LCD V2/newWebs(LCDV2)/SetBasic.js" changelist="2a243f68-41de-414f-b72e-0c5e46ee8f7d" time="1368419765160" ignored="false" />
     <file path="/set.js" changelist="2a243f68-41de-414f-b72e-0c5e46ee8f7d" time="1368413983940" ignored="false" />
-    <file path="/Ext.ux.tab.Tree.js" changelist="2a243f68-41de-414f-b72e-0c5e46ee8f7d" time="1369153568236" ignored="false" />
+    <file path="/Ext.ux.tab.Tree.js" changelist="2a243f68-41de-414f-b72e-0c5e46ee8f7d" time="1369469257111" ignored="false" />
     <file path="/Index.html" changelist="2a243f68-41de-414f-b72e-0c5e46ee8f7d" time="1368428579537" ignored="false" />
     <file path="E:/LCD V2/newWebs(LCDV2)/SetRF.html" changelist="2a243f68-41de-414f-b72e-0c5e46ee8f7d" time="1368503319165" ignored="false" />
     <file path="/SetRF.html" changelist="2a243f68-41de-414f-b72e-0c5e46ee8f7d" time="1368502333497" ignored="false" />
@@ -40,7 +40,7 @@
     <file path="$PROJECT_DIR$/../Chris/slc/css/less/_components.less" changelist="2a243f68-41de-414f-b72e-0c5e46ee8f7d" time="1369103165814" ignored="false" />
     <file path="/_components.less" changelist="2a243f68-41de-414f-b72e-0c5e46ee8f7d" time="1369103165376" ignored="false" />
     <file path="$PROJECT_DIR$/../Chris/slc/css/index.css" changelist="2a243f68-41de-414f-b72e-0c5e46ee8f7d" time="1369103275189" ignored="false" />
-    <file path="/Ext.ux.tab.tree.Window.js" changelist="2a243f68-41de-414f-b72e-0c5e46ee8f7d" time="1369152323234" ignored="false" />
+    <file path="/Ext.ux.tab.tree.Window.js" changelist="2a243f68-41de-414f-b72e-0c5e46ee8f7d" time="1369467083136" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="90" selection-start="1036" selection-end="1036" vertical-scroll-proportion="-9.5">
+            <state line="42" column="97" selection-start="1547" selection-end="1547" vertical-scroll-proportion="-6.5384617">
               <folding />
             </state>
           </provider>
@@ -72,9 +72,10 @@
       <file leaf-file-name="Ext.ux.tab.Tree.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/extjs/Ext.ux.tab.Tree.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="30" selection-start="1592" selection-end="1592" vertical-scroll-proportion="0.61943793">
+            <state line="136" column="52" selection-start="4276" selection-end="4276" vertical-scroll-proportion="0.6814988">
               <folding>
-                <element signature="e#5972#6482#0" expanded="false" />
+                <element signature="e#2282#3353#0" expanded="false" />
+                <element signature="e#4349#4859#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -83,7 +84,7 @@
       <file leaf-file-name="Ext.ux.tab.tree.Window.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/extjs/Ext.ux.tab.tree.Window.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="22" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0">
+            <state line="46" column="48" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -142,7 +143,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -153,61 +154,7 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="argus-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="argus-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="argus-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="argus-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="argus-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="argus-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="argus-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -243,7 +190,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1040" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -326,6 +273,51 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/extjs/Ext.ux.tab.tree.Window.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reporting.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="27" selection-start="0" selection-end="2101" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="90" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/extjs/Ext.ux.tab.Tree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="30" selection-start="1592" selection-end="1592" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#2282#3353#0" expanded="false" />
+            <element signature="e#4349#4859#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/extjs/Ext.ux.tab.tree.Window.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="22" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reporting.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="27" selection-start="0" selection-end="2101" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="12" selection-start="1788" selection-end="1788" vertical-scroll-proportion="0.0">
@@ -373,23 +365,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="90" selection-start="1036" selection-end="1036" vertical-scroll-proportion="-9.5">
+        <state line="42" column="97" selection-start="1547" selection-end="1547" vertical-scroll-proportion="-6.5384617">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/extjs/Ext.ux.tab.tree.Window.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="22" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0">
+        <state line="46" column="48" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/extjs/Ext.ux.tab.Tree.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="30" selection-start="1592" selection-end="1592" vertical-scroll-proportion="0.61943793">
+        <state line="136" column="52" selection-start="4276" selection-end="4276" vertical-scroll-proportion="0.6814988">
           <folding>
-            <element signature="e#5972#6482#0" expanded="false" />
+            <element signature="e#2282#3353#0" expanded="false" />
+            <element signature="e#4349#4859#0" expanded="false" />
           </folding>
         </state>
       </provider>
